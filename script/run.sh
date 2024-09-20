@@ -1,0 +1,12 @@
+#python ../main.py --alg local --suffix $1
+#python ../main.py --alg fedavg --suffix $1
+#python ../main.py --alg fedprox --suffix $1
+#python ../main.py --alg feddst --suffix $1
+#python ../main.py --alg fedavg_ft --suffix $1
+#python ../main.py --alg lgfedavg --suffix $1
+#python ../main.py --alg fedper --suffix $1
+#python ../main.py --alg fedrep --suffix $1
+#python ../main.py --alg ditto --suffix $1
+#python ../main.py --alg apfl --suffix $1
+python ../main.py --alg dmpfl --suffix $1
+#python ../main.py --alg dmpfl_adpt --suffix $1
